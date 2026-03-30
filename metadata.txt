@@ -1,0 +1,19 @@
+[general]
+name=ML Generator SR/CR
+qgisMinimumVersion=3.40
+qgisMaximumVersion=4.99
+description=Generate map sheets for Slovakia and Czechia from an AOI polygon layer.
+version=17.0.0
+author=Richard Reichel
+email=risoreichel@gmail.com
+about=Generate map sheet polygons from bundled SR/CR 1:5000 grids. SR/CR coarse scales follow UGKK/CUZK rules. Fine scales use recursive 2x2 subdivision.
+category=Vector
+icon=icons/icon.svg
+experimental=False
+deprecated=False
+hasProcessingProvider=False
+homepage=https://github.com/Rris0/qgis_plugin_ML_generator_SR_CR
+tracker=https://github.com/Rris0
+repository=https://github.com/Rris0/qgis_plugin_ML_generator_SR_CR
+tags=map sheets, sheet grid, cadastre, slovakia, czechia, qgis, polygons, cartography, map indexing
+
